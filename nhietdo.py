@@ -6,7 +6,7 @@ import time
 
 
 led = LED(17)
-dht = adafruit_dht.DHT11(board.D18	)
+dht = adafruit_dht.DHT11(board.D18)
 
 while True:
 	try:
