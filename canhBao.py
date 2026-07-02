@@ -17,7 +17,6 @@ def setup_he_thong():
 	"""Thiết lập các chế độ và cấu hình ngắt cho toàn bộ thiết bị"""
 	GPIO.setmode(GPIO.BCM)
 	
-	# 1. Thiết lập cho Rotary Encoder (Sử dụng Pull-up nội trở)
 	GPIO.setup(PIN_A, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 	GPIO.setup(PIN_B, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 	# Kích hoạt ngắt cạnh (cả lên và xuống) cho chân A để bắt tín hiệu xoay nhanh nhất
