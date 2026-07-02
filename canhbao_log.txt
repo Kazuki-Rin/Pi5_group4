@@ -1,0 +1,17 @@
+[2026-07-01 22:54:00] Canh bao: Vat can o khoang cach 8.3 cm
+[2026-07-01 22:54:02] Canh bao: Vat can o khoang cach 7.0 cm
+[2026-07-01 22:54:11] Canh bao: Vat can o khoang cach 6.46 cm
+[2026-07-01 22:54:26] Canh bao: Vat can o khoang cach 15.89 cm
+[2026-07-01 22:54:43] Canh bao: Vat can o khoang cach 4.29 cm
+[2026-07-01 22:54:46] Canh bao: Vat can o khoang cach 6.66 cm
+[2026-07-01 22:54:48] Canh bao: Vat can o khoang cach 3.61 cm
+[2026-07-01 22:54:50] Canh bao: Vat can o khoang cach 15.12 cm
+[2026-07-01 22:54:52] Canh bao: Vat can o khoang cach 13.96 cm
+[2026-07-01 22:54:55] Canh bao: Vat can o khoang cach 13.13 cm
+[2026-07-01 22:54:57] Canh bao: Vat can o khoang cach 7.07 cm
+[2026-07-01 22:54:59] Canh bao: Vat can o khoang cach 6.06 cm
+[2026-07-01 22:55:02] Canh bao: Vat can o khoang cach 6.61 cm
+[2026-07-01 22:55:04] Canh bao: Vat can o khoang cach 6.99 cm
+[2026-07-01 22:55:06] Canh bao: Vat can o khoang cach 5.47 cm
+[2026-07-01 22:55:09] Canh bao: Vat can o khoang cach 5.41 cm
+[2026-07-01 22:55:11] Canh bao: Vat can o khoang cach 4.73 cm

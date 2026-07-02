@@ -1,58 +1,37 @@
-2026-06-21 17-13-03 25.8 do C 36 % 
-2026-06-21 17-13-06 25.8 do C 36 % 
-2026-06-21 17-13-08 25.8 do C 36 % 
-2026-06-21 17-13-10 25.7 do C 36 % 
-2026-06-21 17-13-12 25.7 do C 36 % 
-2026-06-21 17-13-15 25.7 do C 36 % 
-2026-06-21 17-13-17 25.7 do C 36 % 
-2026-06-21 17-13-19 25.7 do C 35 % 
-2026-06-21 17-13-21 25.7 do C 35 % 
-2026-06-21 17-13-24 25.7 do C 35 % 
-2026-06-21 17-13-26 25.7 do C 35 % 
-2026-06-21 17-13-28 25.7 do C 35 % 
-2026-06-21 17-13-30 25.7 do C 35 % 
-2026-06-21 17-13-33 25.7 do C 35 % 
-2026-06-21 17-13-35 25.7 do C 35 % 
-2026-06-21 17-13-37 25.7 do C 35 % 
-2026-06-21 17-13-39 25.7 do C 35 % 
-2026-06-21 17-13-42 25.6 do C 35 % 
-2026-06-21 17-13-44 25.6 do C 35 % 
-2026-06-21 17-13-46 25.6 do C 35 % 
-2026-06-21 17-13-49 25.6 do C 35 % 
-2026-06-21 17-14-51 25.8 do C 36 % 
-2026-06-21 17-14-53 25.7 do C 36 % 
-2026-06-21 17-14-56 25.7 do C 36 % 
-2026-06-21 17-14-58 25.7 do C 36 % 
-2026-06-21 17-15-00 25.7 do C 36 % 
-2026-06-21 17-15-02 25.7 do C 36 % 
-2026-06-21 17-15-05 25.7 do C 36 % 
-2026-06-21 17:18:17 25.5 do C 36 % 
-2026-06-21 17:18:19 25.5 do C 36 % 
-2026-06-21 17:18:21 25.5 do C 36 % 
-2026-06-21 17:18:23 25.5 do C 36 % 
-2026-06-21 17:18:26 25.5 do C 36 % 
-2026-06-21 17:18:28 25.5 do C 36 % 
-2026-06-21 17:18:30 25.5 do C 36 % 
-2026-06-21 17:18:32 25.5 do C 36 % 
-2026-06-21 17:20:19 25.6 do C 36 % 
-2026-06-21 17:20:21 25.6 do C 36 % 
-2026-06-21 17:20:24 25.6 do C 36 % 
-2026-06-21 17:20:26 25.6 do C 36 % 
-2026-06-21 17:20:28 25.6 do C 36 % 
-2026-06-21 17:20:30 25.6 do C 36 % 
-2026-06-21 17:20:33 25.7 do C 36 % 
-2026-06-21 17:20:35 25.7 do C 36 % 
-2026-06-21 17:20:37 25.7 do C 36 % 
-2026-06-21 17:20:39 25.7 do C 36 % 
-2026-06-21 17:20:42 25.7 do C 37 % 
-2026-06-21 17:20:44 25.7 do C 39 % 
-2026-06-21 17:20:46 25.7 do C 39 % 
-2026-06-21 17:20:48 25.7 do C 39 % 
-2026-06-21 17:20:51 25.8 do C 41 % 
-2026-06-28 16:27:45 <property object at 0x7ffefad7a480> do C <property object at 0x7ffefae14d10> % 
-2026-06-28 16:28:31 <property object at 0x7fff3079ca90> do C <property object at 0x7fff308172e0> % 
-2026-06-28 16:30:26 <property object at 0x7ffef1ab8ea0> do C <property object at 0x7ffef1ae7420> % 
-2026-06-28 16:30:44 <property object at 0x7ffed0c2cc20> do C <property object at 0x7ffed0ca7420> % 
-2026-06-28 16:31:48 <property object at 0x7fff77eb0ae0> do C <property object at 0x7fff77f2b2e0> % 
-2026-06-28 16:46:19 0 do C 0 % 
-2026-06-28 16:50:38 30.6 do C 57 % 
+Failed to create wl_display (No such file or directory)
+qt.qpa.plugin: Could not load the Qt platform plugin "wayland" in "" even though it was found.
+QStandardPaths: wrong permissions on runtime directory /run/user/1000, 0770 instead of 0700
+'J8:15', 22, 'GPIO22', 'BOARD15', '22'}), pull='', row=8, col=1, interfaces=frozenset({'', 'gpio', 'jtag', 'i2c', 'dpi', 'sdio'}))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pi/Documents/Raspberry_project_nhom4/hethong.py", line 6, in <module>
+    red = LED(22)
+  File "/usr/lib/python3/dist-packages/gpiozero/devices.py", line 108, in __call__
+    self = super().__call__(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/gpiozero/output_devices.py", line 192, in __init__
+    super().__init__(pin, active_high=active_high,
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                     initial_value=initial_value, pin_factory=pin_factory)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/gpiozero/output_devices.py", line 74, in __init__
+    super().__init__(pin, pin_factory=pin_factory)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/gpiozero/mixins.py", line 75, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/gpiozero/devices.py", line 553, in __init__
+    pin = self.pin_factory.pin(pin)
+  File "/usr/lib/python3/dist-packages/gpiozero/pins/pi.py", line 413, in pin
+    pin = self.pin_class(self, info)
+  File "/usr/lib/python3/dist-packages/gpiozero/pins/lgpio.py", line 126, in __init__
+    lgpio.gpio_claim_input(
+    ~~~~~~~~~~~~~~~~~~~~~~^
+        self.factory._handle, self._number, lgpio.SET_PULL_NONE)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/lgpio.py", line 755, in gpio_claim_input
+    return _u2i(_lgpio._gpio_claim_input(handle&0xffff, lFlags, gpio))
+  File "/usr/lib/python3/dist-packages/lgpio.py", line 458, in _u2i
+    raise error(error_text(v))
+lgpio.error: 'GPIO busy'
