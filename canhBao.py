@@ -20,15 +20,13 @@ def setup_he_thong():
 	GPIO.setup(PIN_A, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 	GPIO.setup(PIN_B, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 	GPIO.add_event_detect(PIN_A, GPIO.BOTH, callback=xu_ly_tin_hieu_xoay)
-	
-	# 2. Thiết lập cho Cảm biến siêu âm HC-SR04
+
 	GPIO.setup(PIN_TRIG, GPIO.OUT)
 	GPIO.setup(PIN_ECHO, GPIO.IN)
 	
 	GPIO.setup(PIN_LED, GPIO.OUT)
 	GPIO.output(PIN_LED, GPIO.LOW)
-	
-	# Đảm bảo chân Trig ban đầu ở mức thấp (LOW)
+
 	GPIO.output(PIN_TRIG, GPIO.LOW)
 	print("Đang khởi tạo cảm biến siêu âm...")
 	time.sleep(2)  # Chờ cảm biến ổn định trạng thái
