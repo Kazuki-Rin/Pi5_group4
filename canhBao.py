@@ -11,7 +11,6 @@ PIN_TRIG = 22
 
 PIN_LED = 17
 
-# Biến toàn cục lưu khoảng cách cài đặt ban đầu (đơn vị: cm)
 khoang_cach_a = 20  
 
 def setup_he_thong():
