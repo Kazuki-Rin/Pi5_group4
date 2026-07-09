@@ -1,7 +1,7 @@
 Failed to create wl_display (No such file or directory)
 qt.qpa.plugin: Could not load the Qt platform plugin "wayland" in "" even though it was found.
 QStandardPaths: wrong permissions on runtime directory /run/user/1000, 0770 instead of 0700
-'J8:15', 22, 'GPIO22', 'BOARD15', '22'}), pull='', row=8, col=1, interfaces=frozenset({'', 'gpio', 'jtag', 'i2c', 'dpi', 'sdio'}))
+OARD15', 'BCM22', 'WPI3', 22, 'GPIO22'}), pull='', row=8, col=1, interfaces=frozenset({'', 'i2c', 'sdio', 'gpio', 'jtag', 'dpi'}))
 
 During handling of the above exception, another exception occurred:
 
