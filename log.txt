@@ -1,7 +1,9 @@
 Failed to create wl_display (No such file or directory)
 qt.qpa.plugin: Could not load the Qt platform plugin "wayland" in "" even though it was found.
 QStandardPaths: wrong permissions on runtime directory /run/user/1000, 0770 instead of 0700
-OARD15', 'BCM22', 'WPI3', 22, 'GPIO22'}), pull='', row=8, col=1, interfaces=frozenset({'', 'i2c', 'sdio', 'gpio', 'jtag', 'dpi'}))
+
+(python3:1911): GLib-GObject-CRITICAL **: 18:47:55.635: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ 'gpio', 'dpi'}))
 
 During handling of the above exception, another exception occurred:
 
